@@ -1,0 +1,15 @@
+// dias utéis e finais de semana*/
+
+const resultadoCondicao = dia === "sábado" || dia === "domingo"
+
+console.log(
+   `resultado da condição -> ${resultadoCondicao}`
+)
+
+const dia = "sábado"
+const horas = 10
+if ( (dia === "sábado" && horas > 12) || dia === "domingo") {
+   console.log("Final de semana")
+} else {
+   console.log("Dia útil")
+}
